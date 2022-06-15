@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Gentium Plus', serif;
+}
+
+    /* Color and Styling */
+
+/* Nav Bar */
+
+.header-color{
+    background-color: #C4DDFF;
+    color: black;
+}
+
+/* Nav Bar */
+
+.container{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo{
+    margin-right: 30em;
+}
+
+.nav-bar{
+    margin-left: 5em;
+}
+
+
+/* C4DDFF */
+/* 7FB5FF */
+/* 001D6E */
+/* FEE2C5 */
