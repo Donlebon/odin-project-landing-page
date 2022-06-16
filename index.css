@@ -19,9 +19,93 @@ body{
 /* Nav Bar */
 
 .header-color{
-    background-color: #C4DDFF;
-    color: black;
+    background-color: #7FB5FF;
 }
+
+a{
+   color: inherit;
+   text-decoration: none;
+   display: inline-block;
+   padding: 0;
+}
+
+.header-logo{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(255, 242, 242);
+}
+
+.nav-bar{
+    font-size: 1.5rem;
+    color: rgb(255, 242, 242);
+}
+
+/* Header Intro */
+
+.header-title{
+    font-size: 3rem;
+    color: rgb(255, 242, 242);
+}
+
+.header-info{
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgb(255, 242, 242);
+}
+
+/* Article */
+
+article{
+    background-color: #FEE2C5;
+}
+
+/* Quote Section */
+
+.quote{
+    background-color: #1046d9;
+    padding: 2em 0;
+}
+
+/* Signup Section */
+
+
+.section-title{
+    color: white;
+}
+
+.section-info{
+    color: rgb(217, 217, 217);
+    font-size: 1rem;
+}
+
+/* Button */
+
+#signup{
+    margin-top: 1em;
+    padding: 0.7em 2.3em;
+    font-weight: 700;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 0.4em;
+    border: none;
+    cursor: pointer;
+}
+
+.action-signup{
+    padding: 0.7em 2.8em;
+    font-weight: 700;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 0.4em;
+    cursor: pointer;
+}
+
+.signup-container{
+    border-radius: 0.4em;
+}
+
+    /* Formatting */
 
 /* Nav Bar */
 
@@ -29,15 +113,111 @@ body{
     list-style: none;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .header-logo{
-    margin-right: 30em;
+    margin-right: 12em;
 }
 
 .nav-bar{
-    margin-left: 5em;
+    padding-left: 2em;
 }
+
+/* Header */
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.header-info{
+    width: 90%;
+}
+
+/* Polar Bear Image Header */
+
+.header-image{
+    max-height: 100%;
+    width: 400px;
+}
+
+.waving-bear{
+    border-radius: 1em;
+}
+
+/* Article */
+
+.article-title{
+    text-align: center;
+    font-size: 2.3rem;
+    padding-top: 1em;
+}
+
+.article-image{
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 1em;
+}
+
+.article-image-container{
+    margin-left: 2.5em;
+    margin-top: 2em;
+    padding-bottom: 2em;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    text-align: center;
+}
+
+/* Quote */
+
+.section-quote{
+    width: 500px;
+    margin: auto;
+    color: white;
+}
+
+h4{
+    text-align: center;
+    margin-left: 30em;
+    color: white;
+}
+
+/* SignUp Bar */
+
+.section-signup{
+    padding: 5em 0;
+}
+
+.signup-container{
+    background-color: #3882F6;
+    width: 1000px;
+    margin: auto;
+    padding: 2em 8em;
+    justify-content: space-between;
+}
+
+/* Footer */
+
+footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 3em 0;
+    font-size: 1.5rem;
+}
+
 
 
 /* C4DDFF */
